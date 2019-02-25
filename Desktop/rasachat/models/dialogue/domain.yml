@@ -1,0 +1,192 @@
+%YAML 1.1
+---
+actions:
+- action_unfunded_request
+- action_adjust_screen
+- action_fx_rate
+- action_missing_records
+- action_input_field_error
+- action_emergency_access
+- utter_ask_continue
+- utter_continue
+- utter_greet
+- utter_bot_greet
+- utter_bye
+config:
+  store_entities_as_slots: true
+entities:
+- Tool
+- Field
+- Document
+- Team
+- Inves_Document
+- Temp_Document
+- Score
+forms:
+- form_get_access
+- form_access_status
+- form_update_access
+- form_training
+- form_validation_error
+- form_error
+- form_return_on_investment
+- form_view_investment
+- form_view_offline_template
+- form_feedback
+intents:
+- get_access:
+    use_entities: false
+- access_status:
+    use_entities: false
+- update_access:
+    use_entities: false
+- training:
+    use_entities: false
+- validation_error:
+    use_entities: false
+- error:
+    use_entities: false
+- return_on_investment:
+    use_entities: false
+- view_investment:
+    use_entities: false
+- view_offline_template:
+    use_entities: false
+- thankyou:
+    use_entities: false
+- unfunded_request:
+    use_entities: true
+- adjust_screen:
+    use_entities: true
+- fx_rate:
+    use_entities: true
+- missing_records:
+    use_entities: true
+- input_field_error:
+    use_entities: true
+- emergency_access:
+    use_entities: true
+- greet+get_access:
+    use_entities: true
+- greet+access_status:
+    use_entities: true
+- greet+view_offline_template:
+    use_entities: true
+- greet:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- inform:
+    use_entities: true
+- stop:
+    use_entities: true
+slots:
+  Document:
+    auto_fill: false
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  Field:
+    auto_fill: false
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  Inves_Document:
+    auto_fill: false
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  Score:
+    auto_fill: false
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  Team:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  Temp_Document:
+    auto_fill: false
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  Tool:
+    auto_fill: false
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  requested_slot:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+templates:
+  action_default_fallback:
+  - text: Sorry i can't make out what you are saying
+  utter_ask_Document:
+  - buttons:
+    - payload: Investment
+      title: Investment
+    - payload: Report
+      title: Report
+    text: Which Document you found this issue with?
+  utter_ask_Field:
+  - buttons:
+    - payload: Reviewer Comments
+      title: Reviewer Comments
+    - payload: Servicing Cost Opex
+      title: Servicing Cost Opex
+    text: On Which field you face this issue please specify?
+  utter_ask_Inves_Document:
+  - buttons:
+    - payload: reporting cube
+      title: reporting cube
+    - payload: IDR report
+      title: IDR report
+    - payload: BI report
+      title: BI report
+    - payload: report
+      title: report
+    text: Please specify the document you have ROI issues?
+  utter_ask_Score:
+  - buttons:
+    - payload: bad
+      title: bad
+    - payload: okay
+      title: okay
+    - payload: good
+      title: good
+    - payload: awesome
+      title: awesome
+    text: Please share your valuable feedback
+  utter_ask_Temp_Document:
+  - buttons:
+    - payload: TMP template
+      title: TMP template
+    text: Please specify the document you have ROI issues?
+  utter_ask_Tool:
+  - buttons:
+    - payload: TM1
+      title: TM1
+    - payload: AXP_IM
+      title: AXP_IM
+    text: Please specify the Tool you want to know about?
+  utter_ask_continue:
+  - text: Do you still want to continue?
+  - text: Maybe i can help you please continue😫?
+  - text: I am feeling like useless😫 please continue
+  utter_bot_greet:
+  - text: Hey Pal 😀
+  utter_bye:
+  - text: Thanks for intrecting with us
+  utter_continue:
+  - text: We hope it helped 😁.Ask me if you have any other queries
+  utter_default:
+  - text: sorry, I didn't understand you 😫, please Ask something else hi
+  utter_greet:
+  - text: Hello there, how can I help you?
+  utter_submit:
+  - text: See you soon.Take care 😀
+  utter_wrong_document:
+  - text: Sorry no such document found
+  utter_wrong_feedback:
+  - text: That doesn't look like a feedback😫
+  utter_wrong_field:
+  - text: Sorry no such field found
+  utter_wrong_tool:
+  - text: Sorry no such tool found

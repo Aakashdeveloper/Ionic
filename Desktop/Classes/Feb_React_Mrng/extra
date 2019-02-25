@@ -1,0 +1,56 @@
+React open source
+image slider
+
+packages
+
+
+react packages
+
+npm=> node packages manger
+
+///package.json///
+name
+version
+packages
+start
+test
+build
+
+json=>
+[
+    {
+        name:"a",
+        class:"ui"
+    },
+    {
+        name:"b",
+        class:"ai"
+    }
+]
+
+//1. npm init
+//2. npm install --save zone.js
+     npm install --save zone.js@0.8.28
+
+//mac
+sudo npm install -g create-react-app
+
+//window
+run cmd as admin
+npm install -g create-react-app
+
+// Help to do set or run the app that should
+only go globally 
+cli
+
+
+///React Setup///
+sudo npm install -g create-react-app
+create-react-app firstapp
+cd firstapp
+npm start
+
+http://localhost:3000/
+
+https://github.com/Aakashdeveloper
+https://github.com/Aakashdeveloper/Feb_React_mrng

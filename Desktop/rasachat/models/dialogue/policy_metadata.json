@@ -1,0 +1,92 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "Tool",
+        "Document",
+        "Team"
+      ]
+    },
+    "action_fx_rate": {
+      "slots": [
+        "Tool"
+      ]
+    },
+    "form_return_on_investment": {
+      "slots": []
+    },
+    "form_view_investment": {
+      "slots": []
+    },
+    "form_view_offline_template": {
+      "slots": []
+    },
+    "action_unfunded_request": {
+      "slots": [
+        "Document",
+        "Team"
+      ]
+    },
+    "form_feedback": {
+      "slots": []
+    },
+    "form_get_access": {
+      "slots": []
+    },
+    "form_access_status": {
+      "slots": []
+    },
+    "form_update_access": {
+      "slots": []
+    },
+    "action_deactivate_form": {
+      "slots": []
+    },
+    "form_training": {
+      "slots": []
+    },
+    "action_emergency_access": {
+      "slots": [
+        "Tool"
+      ]
+    },
+    "form_validation_error": {
+      "slots": []
+    },
+    "form_error": {
+      "slots": []
+    },
+    "utter_continue": {
+      "slots": [
+        "Document"
+      ]
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "action_missing_records": {
+      "slots": []
+    },
+    "action_adjust_screen": {
+      "slots": []
+    }
+  },
+  "python": "3.6.5",
+  "max_histories": [
+    5,
+    null,
+    5,
+    2
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.form_policy.FormPolicy"
+  ],
+  "trained_at": "20190222-184158",
+  "rasa_core": "0.13.2",
+  "tensorflow": "1.12.0",
+  "sklearn": "0.20.2"
+}

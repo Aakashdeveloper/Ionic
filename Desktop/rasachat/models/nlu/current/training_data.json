@@ -1,0 +1,2898 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "hi Mister"
+      },
+      {
+        "intent": "greet",
+        "text": "hi pal!"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "greet",
+        "text": "hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "heeey"
+      },
+      {
+        "intent": "greet",
+        "text": "hi hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "yo"
+      },
+      {
+        "intent": "greet",
+        "text": "hola"
+      },
+      {
+        "intent": "greet",
+        "text": "hi?"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot!"
+      },
+      {
+        "intent": "greet",
+        "text": "hello friend"
+      },
+      {
+        "intent": "thankyou",
+        "text": "um thank you good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "okay cool uh good bye thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "okay thank you good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "you rock"
+      },
+      {
+        "intent": "thankyou",
+        "text": "bye bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "and thats all thank you and good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you and good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "sorry about my mistakes thank you good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "noise thank you good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you goodbye noise"
+      },
+      {
+        "intent": "thankyou",
+        "text": "okay thank you goodbye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "uh thank you good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you goodbye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you goodbye noise thank you goodbye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "breath thank you goodbye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "okay thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks goodbye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "ah thank you goodbye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you noise"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "breath thank you very much goodbye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "noise thank you goodbye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "unintelligible thank you goodbye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "uh okay thank you good bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you bye"
+      },
+      {
+        "intent": "thankyou",
+        "text": "um okay thank you good bye"
+      },
+      {
+        "intent": "affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "ye"
+      },
+      {
+        "intent": "affirm",
+        "text": "uh yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "let's do it"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "uh yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "um yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes knocking"
+      },
+      {
+        "intent": "affirm",
+        "text": "that's correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "right"
+      },
+      {
+        "intent": "affirm",
+        "text": "yea"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes right"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes and i dont care"
+      },
+      {
+        "intent": "affirm",
+        "text": "right on"
+      },
+      {
+        "intent": "affirm",
+        "text": "i love that"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "no new selection"
+      },
+      {
+        "intent": "deny",
+        "text": "no thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "no thank you"
+      },
+      {
+        "intent": "deny",
+        "text": "uh no"
+      },
+      {
+        "intent": "deny",
+        "text": "breath no"
+      },
+      {
+        "intent": "deny",
+        "text": "do you have something else"
+      },
+      {
+        "intent": "deny",
+        "text": "no this does not work for me"
+      },
+      {
+        "intent": "deny",
+        "text": "no way"
+      },
+      {
+        "intent": "stop",
+        "text": "ok then you cant help me"
+      },
+      {
+        "intent": "stop",
+        "text": "that was shit, you're not helping"
+      },
+      {
+        "intent": "stop",
+        "text": "you can't help me"
+      },
+      {
+        "intent": "stop",
+        "text": "you can't help me with what i need"
+      },
+      {
+        "intent": "stop",
+        "text": "i guess you can't help me then"
+      },
+      {
+        "intent": "stop",
+        "text": "ok i guess you can't help me"
+      },
+      {
+        "intent": "stop",
+        "text": "that's not what i want"
+      },
+      {
+        "intent": "stop",
+        "text": "ok, but that doesnt help me"
+      },
+      {
+        "intent": "stop",
+        "text": "this is leading to nothing"
+      },
+      {
+        "intent": "stop",
+        "text": "this conversation is not really helpful"
+      },
+      {
+        "intent": "stop",
+        "text": "you cannot help me with what I want"
+      },
+      {
+        "intent": "stop",
+        "text": "I think you cant help me"
+      },
+      {
+        "intent": "stop",
+        "text": "hm i don't think you can do what i want"
+      },
+      {
+        "intent": "stop",
+        "text": "stop"
+      },
+      {
+        "intent": "stop",
+        "text": "stop go back"
+      },
+      {
+        "intent": "stop",
+        "text": "do you get anything?"
+      },
+      {
+        "intent": "stop",
+        "text": "and you call yourself bot company? pff"
+      },
+      {
+        "intent": "stop",
+        "text": "and that's it?"
+      },
+      {
+        "intent": "stop",
+        "text": "nothing else?"
+      },
+      {
+        "intent": "greet+get_access",
+        "text": "hello there.i want access"
+      },
+      {
+        "intent": "greet+get_access",
+        "text": "hi.How to get access"
+      },
+      {
+        "intent": "greet+get_access",
+        "text": "hey there, what is the way to get access"
+      },
+      {
+        "intent": "greet+get_access",
+        "text": "hi Mister.what is the procedure to get access"
+      },
+      {
+        "intent": "greet+get_access",
+        "entities": [
+          {
+            "start": 24,
+            "end": 49,
+            "value": "TM1 Investment Management",
+            "entity": "Tool"
+          }
+        ],
+        "text": "hi pal!I need access to TM1 Investment Management solution"
+      },
+      {
+        "intent": "greet+get_access",
+        "entities": [
+          {
+            "start": 43,
+            "end": 46,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "hi there What steps should i follow to get TM1 access?"
+      },
+      {
+        "intent": "greet+get_access",
+        "entities": [
+          {
+            "start": 39,
+            "end": 42,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "greetings.How long will it take to get TM1 access?"
+      },
+      {
+        "intent": "greet+get_access",
+        "entities": [
+          {
+            "start": 45,
+            "end": 48,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "hello everybody.what is the procedure to get TM1 access?"
+      },
+      {
+        "intent": "greet+get_access",
+        "entities": [
+          {
+            "start": 50,
+            "end": 53,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "hello is anybody there.what is the process to get TM1 access?"
+      },
+      {
+        "intent": "greet+get_access",
+        "entities": [
+          {
+            "start": 43,
+            "end": 46,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "hello robot.Is there any link to apply for TM1 access?"
+      },
+      {
+        "intent": "greet+get_access",
+        "text": "hallo.get access information"
+      },
+      {
+        "intent": "greet+get_access",
+        "text": "heeey.i have queries on getting access"
+      },
+      {
+        "intent": "get_access",
+        "text": "i want access"
+      },
+      {
+        "intent": "get_access",
+        "text": "hey i want to get_access"
+      },
+      {
+        "intent": "get_access",
+        "text": "how to get_access"
+      },
+      {
+        "intent": "get_access",
+        "text": "what is the way to get_access"
+      },
+      {
+        "intent": "get_access",
+        "text": "steps i should need to follow to get_access"
+      },
+      {
+        "intent": "get_access",
+        "text": "how long will it take to get access"
+      },
+      {
+        "intent": "get_access",
+        "text": "what is the procedure to get access"
+      },
+      {
+        "intent": "get_access",
+        "text": "need to get access"
+      },
+      {
+        "intent": "get_access",
+        "text": "get access"
+      },
+      {
+        "intent": "get_access",
+        "text": "get access information"
+      },
+      {
+        "intent": "get_access",
+        "text": "i have queries on getting access"
+      },
+      {
+        "intent": "get_access",
+        "entities": [
+          {
+            "start": 24,
+            "end": 58,
+            "value": "TM1 Investment Management solution",
+            "entity": "Tool"
+          }
+        ],
+        "text": "How can I get access to TM1 Investment Management solution?"
+      },
+      {
+        "intent": "get_access",
+        "entities": [
+          {
+            "start": 17,
+            "end": 42,
+            "value": "TM1 Investment Management",
+            "entity": "Tool"
+          }
+        ],
+        "text": "I need access to TM1 Investment Management solution"
+      },
+      {
+        "intent": "get_access",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "AXP_IM",
+            "entity": "Tool"
+          }
+        ],
+        "text": "I need access to AXP_IM"
+      },
+      {
+        "intent": "get_access",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "AXP_IM",
+            "entity": "Tool"
+          }
+        ],
+        "text": "How do I get access to AXP_IM?"
+      },
+      {
+        "intent": "get_access",
+        "entities": [
+          {
+            "start": 33,
+            "end": 36,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "What is the way to get access to TM1?"
+      },
+      {
+        "intent": "get_access",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "what is the process to get TM1 access?"
+      },
+      {
+        "intent": "get_access",
+        "entities": [
+          {
+            "start": 29,
+            "end": 32,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "what is the procedure to get TM1 access?"
+      },
+      {
+        "intent": "get_access",
+        "entities": [
+          {
+            "start": 34,
+            "end": 37,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "What steps should i follow to get TM1 access?"
+      },
+      {
+        "intent": "get_access",
+        "entities": [
+          {
+            "start": 31,
+            "end": 34,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "Is there any link to apply for TM1 access?"
+      },
+      {
+        "intent": "get_access",
+        "entities": [
+          {
+            "start": 29,
+            "end": 32,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "How long will it take to get TM1 access?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "TM1"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "AXP_IM",
+            "entity": "Tool"
+          }
+        ],
+        "text": "AXP_IM"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "want to know about TM1"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 28,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "please let me know about TM1"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "TM1",
+            "entity": "tool"
+          }
+        ],
+        "text": "TM1 please"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "TM1",
+            "entity": "tool"
+          }
+        ],
+        "text": "tool is TM1"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "TM1 Investment Management solution",
+            "entity": "Tool"
+          }
+        ],
+        "text": "TM1 Investment Management solution"
+      },
+      {
+        "intent": "inform",
+        "text": "more about [AXP_IM]"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 55,
+            "value": "TM1 Investment Management solution",
+            "entity": "Tool"
+          }
+        ],
+        "text": "i want to know about TM1 Investment Management solution"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "TM1 tool?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "about TM1?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Reviewer Comments",
+            "entity": "Field"
+          }
+        ],
+        "text": "Reviewer Comments?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 21,
+            "value": "Reviewer Comments",
+            "entity": "Field"
+          }
+        ],
+        "text": "for Reviewer Comments"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 30,
+            "value": "Reviewer Comments",
+            "entity": "Field"
+          }
+        ],
+        "text": "the field is Reviewer Comments"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Reviewer Comments",
+            "entity": "Field"
+          }
+        ],
+        "text": "Reviewer Comments please"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "Servicing Cost Opex",
+            "entity": "Field"
+          }
+        ],
+        "text": "Servicing Cost Opex"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 23,
+            "value": "Servicing Cost Opex",
+            "entity": "Field"
+          }
+        ],
+        "text": "for Servicing Cost Opex"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 22,
+            "value": "Servicing Cost Opex",
+            "entity": "Field"
+          }
+        ],
+        "text": "On Servicing Cost Opex"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "investment",
+            "entity": "Document"
+          }
+        ],
+        "text": "investment"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "report",
+            "entity": "Document"
+          }
+        ],
+        "text": "report"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 46,
+            "value": "Servicing Cost Opex",
+            "entity": "Field"
+          }
+        ],
+        "text": "i would like to know about Servicing Cost Opex"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "reporting cube",
+            "entity": "Inves_Document"
+          }
+        ],
+        "text": "reporting cube"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "IDR report",
+            "entity": "Inves_Document"
+          }
+        ],
+        "text": "IDR report"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "BI report",
+            "entity": "Inves_Document"
+          }
+        ],
+        "text": "BI report"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "report",
+            "entity": "Inves_Document"
+          }
+        ],
+        "text": "report"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "TMP template",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "TMP template"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "offline TMP template",
+            "entity": "TempDocument"
+          }
+        ],
+        "text": "offline TMP template"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "TMP offline templates",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "TMP offline templates"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "okay",
+            "entity": "Score"
+          }
+        ],
+        "text": "it is okay"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "good",
+            "entity": "Score"
+          }
+        ],
+        "text": "i found it good"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "awesome",
+            "entity": "Score"
+          }
+        ],
+        "text": "it is purely awesome"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "bad",
+            "entity": "Score"
+          }
+        ],
+        "text": "I found it very bad to use"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "bad",
+            "entity": "Score"
+          }
+        ],
+        "text": "bad"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "okay",
+            "entity": "Score"
+          }
+        ],
+        "text": "okay"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "good",
+            "entity": "Score"
+          }
+        ],
+        "text": "good"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "awesome",
+            "entity": "Score"
+          }
+        ],
+        "text": "awesome"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "delhi",
+            "entity": "city"
+          }
+        ],
+        "text": "delhi"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "london",
+            "entity": "city"
+          }
+        ],
+        "text": "london"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "germany",
+            "entity": "city"
+          }
+        ],
+        "text": "germany"
+      },
+      {
+        "intent": "weather_update",
+        "text": "what is like the weather"
+      },
+      {
+        "intent": "greet+access_status",
+        "text": "hallo i want my status"
+      },
+      {
+        "intent": "greet+access_status",
+        "text": "heeey i need to know the access status"
+      },
+      {
+        "intent": "greet+access_status",
+        "text": "hi i would like to know about the access status"
+      },
+      {
+        "intent": "greet+access_status",
+        "text": "hey.may i know about the access status"
+      },
+      {
+        "intent": "greet+access_status",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "hey.My TM1 access is still pending though I applied a few days back"
+      },
+      {
+        "intent": "greet+access_status",
+        "entities": [
+          {
+            "start": 34,
+            "end": 37,
+            "value": "TM1",
+            "entity": "Tool"
+          },
+          {
+            "start": 104,
+            "end": 107,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "hello there.I have already raised TM1 access for me but it is still not given. What is the way to track TM1 access status ?"
+      },
+      {
+        "intent": "greet+access_status",
+        "entities": [
+          {
+            "start": 32,
+            "end": 35,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "hi.How can i check with whom my TM1 access request is pending"
+      },
+      {
+        "intent": "greet+access_status",
+        "text": "hello.If my access request is approved by my leader and stilll pending then whom to contact ?"
+      },
+      {
+        "intent": "greet+access_status",
+        "text": "Hi.Please tell me about the access status"
+      },
+      {
+        "intent": "greet+access_status",
+        "text": "Hey i want my status"
+      },
+      {
+        "intent": "greet+access_status",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "Hi.My TM1 access is still pending though I applied a few days back"
+      },
+      {
+        "intent": "greet+access_status",
+        "entities": [
+          {
+            "start": 33,
+            "end": 36,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "Hey.How can i check with whom my TM1 access request is pending"
+      },
+      {
+        "intent": "access_status",
+        "text": "i want my status"
+      },
+      {
+        "intent": "access_status",
+        "text": "i applied for acesss a few days ago and still no have access?"
+      },
+      {
+        "intent": "access_status",
+        "text": "i need to know the access status"
+      },
+      {
+        "intent": "access_status",
+        "text": "what is my access status"
+      },
+      {
+        "intent": "access_status",
+        "text": "tell about my access status"
+      },
+      {
+        "intent": "access_status",
+        "text": "i would like to know about the access status"
+      },
+      {
+        "intent": "access_status",
+        "text": "Please tell me about the access status"
+      },
+      {
+        "intent": "access_status",
+        "text": "may i know about the access status"
+      },
+      {
+        "intent": "access_status",
+        "text": "please help me on access status"
+      },
+      {
+        "intent": "access_status",
+        "entities": [
+          {
+            "start": 25,
+            "end": 28,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "I applied for accesss to TM1 a few days ago and still do not have - access?"
+      },
+      {
+        "intent": "access_status",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "My TM1 access is still pending though I applied a few days back"
+      },
+      {
+        "intent": "access_status",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "I am still not granted TM1 access and i applied few days back"
+      },
+      {
+        "intent": "access_status",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "Status of my TM1 access is still pending even after few days of applying"
+      },
+      {
+        "intent": "access_status",
+        "entities": [
+          {
+            "start": 26,
+            "end": 29,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "There is no update why my TM1 access has not started yet though i applied for it way back"
+      },
+      {
+        "intent": "access_status",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "How can I check my TM1 access status?"
+      },
+      {
+        "intent": "access_status",
+        "text": "If my access request is approved by my leader and stilll pending then whom to contact ?"
+      },
+      {
+        "intent": "access_status",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "TM1",
+            "entity": "Tool"
+          },
+          {
+            "start": 92,
+            "end": 95,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "I have already raised TM1 access for me but it is still not given. What is the way to track TM1 access status ?"
+      },
+      {
+        "intent": "access_status",
+        "entities": [
+          {
+            "start": 27,
+            "end": 30,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "I want to inquire about my TM1 access status?"
+      },
+      {
+        "intent": "access_status",
+        "entities": [
+          {
+            "start": 29,
+            "end": 32,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "How can i check with whom my TM1 access request is pending"
+      },
+      {
+        "intent": "emergency_access",
+        "entities": [
+          {
+            "start": 57,
+            "end": 60,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "My leader is out of office and I urgently need access to TM1 for making submissions. How can I get the access?"
+      },
+      {
+        "intent": "emergency_access",
+        "text": "My leader can not be reached and i have certain very important deliverables to be submitted so can i be helped with in getting acccess?"
+      },
+      {
+        "intent": "emergency_access",
+        "entities": [
+          {
+            "start": 107,
+            "end": 110,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "My reportee is not present in office and I am bound with some project deadlines so is there any way to get TM1 access?"
+      },
+      {
+        "intent": "emergency_access",
+        "entities": [
+          {
+            "start": 29,
+            "end": 32,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "How can i raise a ticket for TM1 access?"
+      },
+      {
+        "intent": "emergency_access",
+        "text": "I want access to web interface but my leader is not present in office?"
+      },
+      {
+        "intent": "emergency_access",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "Is there any way to get TM1 access if my leader is not in office to approve my request?"
+      },
+      {
+        "intent": "emergency_access",
+        "entities": [
+          {
+            "start": 34,
+            "end": 37,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "In absence of my leader can i get TM1 access?"
+      },
+      {
+        "intent": "emergency_access",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "I want TM1 access to submit certain deliverables on urgent basis."
+      },
+      {
+        "intent": "emergency_access",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "Is it possible to get TM1 access without my leader's approval?"
+      },
+      {
+        "intent": "emergency_access",
+        "entities": [
+          {
+            "start": 38,
+            "end": 41,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "My leader is not available and I want TM1 access how should i get it"
+      },
+      {
+        "intent": "update_access",
+        "text": "I need to update my access"
+      },
+      {
+        "intent": "update_access",
+        "text": "With my role change can my access be switched accordingly"
+      },
+      {
+        "intent": "update_access",
+        "text": "how to move access with change in role"
+      },
+      {
+        "intent": "update_access",
+        "text": "i am not able to transform my access in accordance with my new role"
+      },
+      {
+        "intent": "update_access",
+        "entities": [
+          {
+            "start": 87,
+            "end": 90,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "I have recently changed roles and moved to a different Business Unit. How can I get my TM1 access switched as per my new role?"
+      },
+      {
+        "intent": "update_access",
+        "entities": [
+          {
+            "start": 32,
+            "end": 35,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "with my new position how can my TM1 access beredirected?"
+      },
+      {
+        "intent": "update_access",
+        "text": "I need to get my role updated in the system. How do I proceed?"
+      },
+      {
+        "intent": "update_access",
+        "text": "I need to get additional access. How do I proceed?"
+      },
+      {
+        "intent": "update_access",
+        "entities": [
+          {
+            "start": 87,
+            "end": 90,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "As per my current role taging How can i do relevant changes on the portal so as to get TM1 access accordingly"
+      },
+      {
+        "intent": "update_access",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "With my role change can the TM1 access be switched accordingly?"
+      },
+      {
+        "intent": "update_access",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "How can the TM1 access be switched in accordance with my role change"
+      },
+      {
+        "intent": "update_access",
+        "entities": [
+          {
+            "start": 33,
+            "end": 36,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "Is there any process to move the TM1 access with the change in role"
+      },
+      {
+        "intent": "update_access",
+        "entities": [
+          {
+            "start": 32,
+            "end": 35,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "Is there any link to change The TM1 according to my role Whom can i reach out for the same?"
+      },
+      {
+        "intent": "update_access",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "I am unable to transform my TM1 access in accordance with my new role."
+      },
+      {
+        "intent": "training",
+        "text": "Is there any training available"
+      },
+      {
+        "intent": "training",
+        "text": "I am new user.I wanto know about available"
+      },
+      {
+        "intent": "training",
+        "text": "Is there a training available"
+      },
+      {
+        "intent": "training",
+        "text": "is there a manual"
+      },
+      {
+        "intent": "training",
+        "text": "How can i learn as i am new user"
+      },
+      {
+        "intent": "training",
+        "text": "can i get a user manual"
+      },
+      {
+        "intent": "training",
+        "text": "whom to reach out if i have any queries"
+      },
+      {
+        "intent": "training",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "TM1",
+            "entity": "Tool"
+          },
+          {
+            "start": 54,
+            "end": 57,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "I am new TM1 user. Is there any training available on TM1?"
+      },
+      {
+        "intent": "training",
+        "entities": [
+          {
+            "start": 39,
+            "end": 64,
+            "value": "TM1 Investment Management",
+            "entity": "Tool"
+          }
+        ],
+        "text": "Where can I find training material for TM1 Investment Management solution?"
+      },
+      {
+        "intent": "training",
+        "entities": [
+          {
+            "start": 24,
+            "end": 49,
+            "value": "TM1 Investment Management",
+            "entity": "Tool"
+          }
+        ],
+        "text": "Is there any manual for TM1 Investment Management Solution"
+      },
+      {
+        "intent": "training",
+        "entities": [
+          {
+            "start": 50,
+            "end": 75,
+            "value": "TM1 Investment management",
+            "entity": "Tool"
+          }
+        ],
+        "text": "Is there any step by step guide for understanding TM1 Investment management Solution"
+      },
+      {
+        "intent": "training",
+        "entities": [
+          {
+            "start": 39,
+            "end": 64,
+            "value": "TM1 management Investment",
+            "entity": "Tool"
+          }
+        ],
+        "text": "How can i access training material for TM1 management Investment"
+      },
+      {
+        "intent": "training",
+        "entities": [
+          {
+            "start": 46,
+            "end": 71,
+            "value": "TM1 Investment Management",
+            "entity": "Tool"
+          }
+        ],
+        "text": "Whom to reach out to if i have any queries in TM1 Investment Management"
+      },
+      {
+        "intent": "training",
+        "entities": [
+          {
+            "start": 44,
+            "end": 69,
+            "value": "TM1 Investment Management",
+            "entity": "Tool"
+          }
+        ],
+        "text": "Are any training sessions for understanding TM1 Investment Management available?"
+      },
+      {
+        "intent": "training",
+        "entities": [
+          {
+            "start": 26,
+            "end": 51,
+            "value": "TM1 Management Investment",
+            "entity": "Tool"
+          }
+        ],
+        "text": "How can i get training on TM1 Management Investment"
+      },
+      {
+        "intent": "training",
+        "entities": [
+          {
+            "start": 19,
+            "end": 44,
+            "value": "TM1 Management Investment",
+            "entity": "Tool"
+          }
+        ],
+        "text": "I want training on TM1 Management Investment"
+      },
+      {
+        "intent": "training",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "I am new to TM1 so whish to understand about it where should i go?"
+      },
+      {
+        "intent": "validation_error",
+        "text": "why i am getting validation error for field?"
+      },
+      {
+        "intent": "validation_error",
+        "text": "there is some authentication problem with attribute"
+      },
+      {
+        "intent": "validation_error",
+        "text": "validation error is popping up when trying yo set field"
+      },
+      {
+        "intent": "validation_error",
+        "text": "Is there any solution to the error that is occuring for field?"
+      },
+      {
+        "intent": "validation_error",
+        "text": "i am getting validation error for field?"
+      },
+      {
+        "intent": "validation_error",
+        "text": "validation error is popping up"
+      },
+      {
+        "intent": "validation_error",
+        "text": "why is the error occuring for the field"
+      },
+      {
+        "intent": "validation_error",
+        "text": "i am not getting any solution to the error that is occuring for the field?"
+      },
+      {
+        "intent": "validation_error",
+        "text": "Is there any solution to the error occuring for the field?"
+      },
+      {
+        "intent": "validation_error",
+        "entities": [
+          {
+            "start": 38,
+            "end": 55,
+            "value": "Reviewer Comments",
+            "entity": "Field"
+          }
+        ],
+        "text": "Why am I getting validation error for Reviewer Comments field?"
+      },
+      {
+        "intent": "validation_error",
+        "entities": [
+          {
+            "start": 45,
+            "end": 62,
+            "value": "Reviewer Comments",
+            "entity": "Field"
+          }
+        ],
+        "text": "There is Verification issue assosciated with Reviewer Comments column"
+      },
+      {
+        "intent": "validation_error",
+        "entities": [
+          {
+            "start": 42,
+            "end": 59,
+            "value": "Reviewer Comments",
+            "entity": "Field"
+          }
+        ],
+        "text": "There is some authentication problem with Reviewer Comments attribute"
+      },
+      {
+        "intent": "validation_error",
+        "entities": [
+          {
+            "start": 51,
+            "end": 70,
+            "value": "Servicing Cost Opex",
+            "entity": "Field"
+          },
+          {
+            "start": 85,
+            "end": 88,
+            "value": "TMP",
+            "entity": "Document"
+          }
+        ],
+        "text": "Validation error is poping up when i trying to set Servicing Cost Opex fields in the TMP"
+      },
+      {
+        "intent": "validation_error",
+        "entities": [
+          {
+            "start": 51,
+            "end": 70,
+            "value": "Servicing Cost Opex",
+            "entity": "Field"
+          },
+          {
+            "start": 85,
+            "end": 88,
+            "value": "TMP",
+            "entity": "Document"
+          }
+        ],
+        "text": "How can i fix the error that appears when i select Servicing Cost Opex fields in the TMP?"
+      },
+      {
+        "intent": "validation_error",
+        "entities": [
+          {
+            "start": 58,
+            "end": 77,
+            "value": "Servicing Cost Opex",
+            "entity": "Field"
+          },
+          {
+            "start": 92,
+            "end": 95,
+            "value": "TMP",
+            "entity": "Document"
+          }
+        ],
+        "text": "I want solution to error that is occuring while selecting Servicing Cost Opex fields in the TMP"
+      },
+      {
+        "intent": "validation_error",
+        "entities": [
+          {
+            "start": 56,
+            "end": 73,
+            "value": "Reviewer Comments",
+            "entity": "Field"
+          }
+        ],
+        "text": "Is there any solution to the error that is occuring for Reviewer Comments field?"
+      },
+      {
+        "intent": "validation_error",
+        "entities": [
+          {
+            "start": 58,
+            "end": 75,
+            "value": "Reviewer Comments",
+            "entity": "Field"
+          }
+        ],
+        "text": "I am not getting any solution to the issue happening with Reviewer Comments field"
+      },
+      {
+        "intent": "validation_error",
+        "entities": [
+          {
+            "start": 30,
+            "end": 47,
+            "value": "Reviewer Comments",
+            "entity": "Field"
+          }
+        ],
+        "text": "Why is the error occuring for Reviewer Comments field?"
+      },
+      {
+        "intent": "validation_error",
+        "entities": [
+          {
+            "start": 32,
+            "end": 49,
+            "value": "Reviewer Comments",
+            "entity": "Field"
+          }
+        ],
+        "text": "How can the error occuring with Reviewer Comments field be resolved"
+      },
+      {
+        "intent": "error",
+        "text": "I am getting an error"
+      },
+      {
+        "intent": "error",
+        "text": "why am i getting error"
+      },
+      {
+        "intent": "error",
+        "entities": [
+          {
+            "start": 25,
+            "end": 35,
+            "value": "investment",
+            "entity": "Document"
+          }
+        ],
+        "text": "I am trying to create an investment but the process is failing"
+      },
+      {
+        "intent": "error",
+        "entities": [
+          {
+            "start": 37,
+            "end": 47,
+            "value": "investment",
+            "entity": "Document"
+          }
+        ],
+        "text": "I am getting an error while creating investment"
+      },
+      {
+        "intent": "error",
+        "text": "I am getting an error while loading data"
+      },
+      {
+        "intent": "error",
+        "entities": [
+          {
+            "start": 39,
+            "end": 45,
+            "value": "report",
+            "entity": "Document"
+          }
+        ],
+        "text": "I am getting an error while pulling my report"
+      },
+      {
+        "intent": "error",
+        "entities": [
+          {
+            "start": 40,
+            "end": 51,
+            "value": "investments",
+            "entity": "Document"
+          }
+        ],
+        "text": "I am getting an error while fetching my investments"
+      },
+      {
+        "intent": "error",
+        "text": "I am getting a system error, whom should i contact?"
+      },
+      {
+        "intent": "error",
+        "text": "Is there any helpdesk to help me resolve my error?"
+      },
+      {
+        "intent": "error",
+        "text": "Is there any contact person to assist me in solving the issue"
+      },
+      {
+        "intent": "error",
+        "entities": [
+          {
+            "start": 50,
+            "end": 60,
+            "value": "investment",
+            "entity": "Document"
+          }
+        ],
+        "text": "Why i am getting an error when i try to create an investment"
+      },
+      {
+        "intent": "error",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "investment",
+            "entity": "Document"
+          }
+        ],
+        "text": "Process of creation of investment is undergoing some error How should i fix it?"
+      },
+      {
+        "intent": "input_field_error",
+        "entities": [
+          {
+            "start": 43,
+            "end": 46,
+            "value": "TMP",
+            "entity": "Document"
+          }
+        ],
+        "text": "How to make percentage field inputs in the TMP?"
+      },
+      {
+        "intent": "input_field_error",
+        "text": "The system is not reflecting the % inputs correctly?"
+      },
+      {
+        "intent": "input_field_error",
+        "text": "Why is the system not showing correct % input values ?"
+      },
+      {
+        "intent": "input_field_error",
+        "text": "What is the format for inputing the numbers?"
+      },
+      {
+        "intent": "input_field_error",
+        "text": "what is the error with % input field?"
+      },
+      {
+        "intent": "input_field_error",
+        "text": "How can i resolve the error with % input field?"
+      },
+      {
+        "intent": "input_field_error",
+        "text": "How will the system show correct input values?"
+      },
+      {
+        "intent": "input_field_error",
+        "entities": [
+          {
+            "start": 54,
+            "end": 57,
+            "value": "TMP",
+            "entity": "Document"
+          }
+        ],
+        "text": "Is there any defined format to fill % input column in TMP?"
+      },
+      {
+        "intent": "input_field_error",
+        "entities": [
+          {
+            "start": 73,
+            "end": 76,
+            "value": "Tmp",
+            "entity": "Document"
+          }
+        ],
+        "text": "What is wrong with the inputs that i am feeding in the % input column of Tmp"
+      },
+      {
+        "intent": "input_field_error",
+        "entities": [
+          {
+            "start": 80,
+            "end": 83,
+            "value": "TMP",
+            "entity": "Document"
+          }
+        ],
+        "text": "Is there anything wrong with the inputs i am providing in the % input column of TMP?"
+      },
+      {
+        "intent": "missing_records",
+        "text": "I uploaded NAA information for a particular Year-Month combination, but I am not able to see the data for few sub products"
+      },
+      {
+        "intent": "missing_records",
+        "text": "How can I get the missing records for few sub products?"
+      },
+      {
+        "intent": "missing_records",
+        "text": "I donot see data for some products/ sub-products?"
+      },
+      {
+        "intent": "missing_records",
+        "text": "Even after loading the NAA data fora particular Year-Month combination why the data is missing for few sub products"
+      },
+      {
+        "intent": "missing_records",
+        "text": "Why i am not getting the whole data even though i entered the required information?"
+      },
+      {
+        "intent": "missing_records",
+        "text": "Are thare any products/sub-products for which there are no records in the system?"
+      },
+      {
+        "intent": "missing_records",
+        "text": "Which are the products for which system has no data?"
+      },
+      {
+        "intent": "missing_records",
+        "text": "How can i now about the products for which the system has no data?"
+      },
+      {
+        "intent": "missing_records",
+        "text": "I want to know about certain products if they exist in the system"
+      },
+      {
+        "intent": "missing_records",
+        "text": "Where can i raise a query to know if product/sub-product exist in the system?"
+      },
+      {
+        "intent": "return_on_investment",
+        "entities": [
+          {
+            "start": 54,
+            "end": 68,
+            "value": "reporting cube",
+            "entity": "Document"
+          }
+        ],
+        "text": "Why do I see a zero Return on Investment (ROI) in the reporting cube?"
+      },
+      {
+        "intent": "return_on_investment",
+        "entities": [
+          {
+            "start": 54,
+            "end": 60,
+            "value": "report",
+            "entity": "Document"
+          }
+        ],
+        "text": "Why do I see a zero Return on Investment (ROI) in the report?"
+      },
+      {
+        "intent": "return_on_investment",
+        "entities": [
+          {
+            "start": 50,
+            "end": 53,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "Why do I see a zero Return on Investment (ROI) in TM1?"
+      },
+      {
+        "intent": "return_on_investment",
+        "text": "I donot see ROI for certain strings"
+      },
+      {
+        "intent": "return_on_investment",
+        "text": "ROI is missing for certain records in dataset"
+      },
+      {
+        "intent": "return_on_investment",
+        "text": "ROI values are not present in various rows in the database"
+      },
+      {
+        "intent": "return_on_investment",
+        "entities": [
+          {
+            "start": 61,
+            "end": 67,
+            "value": "report",
+            "entity": "Document"
+          }
+        ],
+        "text": "What is the reason for zero Return on Investment (ROI)in the report?"
+      },
+      {
+        "intent": "return_on_investment",
+        "entities": [
+          {
+            "start": 27,
+            "end": 43,
+            "value": "Sales Investment",
+            "entity": "Document"
+          }
+        ],
+        "text": "How can i generate ROI for Sales Investment?"
+      },
+      {
+        "intent": "return_on_investment",
+        "text": "Where should i raise my concern for the resolution of my issue?"
+      },
+      {
+        "intent": "return_on_investment",
+        "entities": [
+          {
+            "start": 72,
+            "end": 86,
+            "value": "reporting cube",
+            "entity": "Document"
+          }
+        ],
+        "text": "How can i know the reason behind zero Return on Investment (ROI) in the reporting cube?"
+      },
+      {
+        "intent": "view_investment",
+        "entities": [
+          {
+            "start": 59,
+            "end": 73,
+            "value": "reporting cube",
+            "entity": "Inves_Document"
+          }
+        ],
+        "text": "I have submitted my investments but do not see data in the reporting cube"
+      },
+      {
+        "intent": "view_investment",
+        "entities": [
+          {
+            "start": 58,
+            "end": 68,
+            "value": "IDR report",
+            "entity": "Inves_Document"
+          }
+        ],
+        "text": "I have submitted my investments but donot see data in the IDR report"
+      },
+      {
+        "intent": "view_investment",
+        "entities": [
+          {
+            "start": 58,
+            "end": 67,
+            "value": "BI report",
+            "entity": "Inves_Document"
+          }
+        ],
+        "text": "I have submitted my investments but donot see data in the BI report"
+      },
+      {
+        "intent": "view_investment",
+        "entities": [
+          {
+            "start": 58,
+            "end": 67,
+            "value": "BI report",
+            "entity": "Inves_Document"
+          }
+        ],
+        "text": "I have submitted my investments but donot see data in the BI report"
+      },
+      {
+        "intent": "view_investment",
+        "entities": [
+          {
+            "start": 72,
+            "end": 78,
+            "value": "report",
+            "entity": "Inves_Document"
+          }
+        ],
+        "text": "I have already registered my investments but unable to grab the updated report"
+      },
+      {
+        "intent": "view_investment",
+        "text": "How can i view my submitted investments"
+      },
+      {
+        "intent": "view_investment",
+        "text": "Where and when do the submitted investments get updated in the system?"
+      },
+      {
+        "intent": "view_investment",
+        "text": "Is there any way to see all my submitted investments?"
+      },
+      {
+        "intent": "view_investment",
+        "entities": [
+          {
+            "start": 42,
+            "end": 52,
+            "value": "IDR report",
+            "entity": "Inves_Document"
+          }
+        ],
+        "text": "Why do i not see data of my invstments in IDR report?"
+      },
+      {
+        "intent": "view_investment",
+        "entities": [
+          {
+            "start": 49,
+            "end": 58,
+            "value": "BI report",
+            "entity": "Inves_Document"
+          }
+        ],
+        "text": "why is the data of my investments missing in the BI report"
+      },
+      {
+        "intent": "fx_rate",
+        "entities": [
+          {
+            "start": 33,
+            "end": 36,
+            "value": "TM1",
+            "entity": "Tool"
+          }
+        ],
+        "text": "When are the FX rates updated in TM1?"
+      },
+      {
+        "intent": "fx_rate",
+        "text": "I donot see the latest FX rates in the system"
+      },
+      {
+        "intent": "fx_rate",
+        "entities": [
+          {
+            "start": 35,
+            "end": 45,
+            "value": "investment",
+            "entity": "Document"
+          }
+        ],
+        "text": "I need a new FX rate to analyze my investment data"
+      },
+      {
+        "intent": "fx_rate",
+        "text": "FX rates are required for future analysis"
+      },
+      {
+        "intent": "fx_rate",
+        "entities": [
+          {
+            "start": 25,
+            "end": 41,
+            "value": "Foreign Exchange",
+            "entity": "Document"
+          }
+        ],
+        "text": "From where can i acquire Foreign Exchange rates to proceed my futher examination"
+      },
+      {
+        "intent": "fx_rate",
+        "text": "Where can i find the updated FX rates in the system?"
+      },
+      {
+        "intent": "fx_rate",
+        "text": "Are the FX rates updated in the system?"
+      },
+      {
+        "intent": "fx_rate",
+        "text": "I don't have the latest FX rates to analyse the data?"
+      },
+      {
+        "intent": "fx_rate",
+        "text": "How can I get the FX rates for the current month?"
+      },
+      {
+        "intent": "fx_rate",
+        "text": "I don't see FX rates for the month of November What should i do?"
+      },
+      {
+        "intent": "adjust_screen",
+        "entities": [
+          {
+            "start": 59,
+            "end": 84,
+            "value": "TM1 Investment Management",
+            "entity": "Tool"
+          }
+        ],
+        "text": "How do I expand or shrink the screen size while working on TM1 Investment Management tool?"
+      },
+      {
+        "intent": "adjust_screen",
+        "text": "How can I zoom in and out the screen size"
+      },
+      {
+        "intent": "adjust_screen",
+        "text": "How can the screen size be controlled"
+      },
+      {
+        "intent": "adjust_screen",
+        "text": "Is there any way to adjust the screen size"
+      },
+      {
+        "intent": "adjust_screen",
+        "text": "What is the way to adjust the screen size"
+      },
+      {
+        "intent": "adjust_screen",
+        "text": "I want to adjust the screen size but do not know how to do it?"
+      },
+      {
+        "intent": "adjust_screen",
+        "text": "I do not Know how to control the screen size?"
+      },
+      {
+        "intent": "adjust_screen",
+        "text": "How can increase or decrease the screen size?"
+      },
+      {
+        "intent": "adjust_screen",
+        "entities": [
+          {
+            "start": 42,
+            "end": 67,
+            "value": "TM1 Investment Management",
+            "entity": "Tool"
+          }
+        ],
+        "text": "Screen size seems small twhile working on TM1 Investment Management tool how can i adjust it?"
+      },
+      {
+        "intent": "adjust_screen",
+        "text": "I am not able to zoom out the screen.How should i do it ?"
+      },
+      {
+        "intent": "unfunded_request",
+        "entities": [
+          {
+            "start": 44,
+            "end": 62,
+            "value": "Corporate Planning",
+            "entity": "Team"
+          }
+        ],
+        "text": "How can I route my unfunded requests to the Corporate Planning team?"
+      },
+      {
+        "intent": "unfunded_request",
+        "entities": [
+          {
+            "start": 57,
+            "end": 68,
+            "value": "investments",
+            "entity": "Document"
+          }
+        ],
+        "text": "How do I request for incremental funding for my unfunded investments?"
+      },
+      {
+        "intent": "unfunded_request",
+        "entities": [
+          {
+            "start": 31,
+            "end": 42,
+            "value": "investments",
+            "entity": "Document"
+          }
+        ],
+        "text": "How can I Optimise my unfunded investments ?"
+      },
+      {
+        "intent": "unfunded_request",
+        "entities": [
+          {
+            "start": 27,
+            "end": 38,
+            "value": "investments",
+            "entity": "Document"
+          }
+        ],
+        "text": "How can i plan my unfunded investments?"
+      },
+      {
+        "intent": "unfunded_request",
+        "entities": [
+          {
+            "start": 46,
+            "end": 57,
+            "value": "investments",
+            "entity": "Document"
+          }
+        ],
+        "text": "Is there any guide for sales related unfunded investments?"
+      },
+      {
+        "intent": "unfunded_request",
+        "text": "If i am a BU Submitter how can i work on unfunded request?"
+      },
+      {
+        "intent": "unfunded_request",
+        "entities": [
+          {
+            "start": 44,
+            "end": 62,
+            "value": "Corporate Planning",
+            "entity": "Team"
+          }
+        ],
+        "text": "How can i route my unfunded requests to the Corporate Planning team?"
+      },
+      {
+        "intent": "unfunded_request",
+        "entities": [
+          {
+            "start": 43,
+            "end": 61,
+            "value": "Corporate Planning",
+            "entity": "Team"
+          }
+        ],
+        "text": "I want to send my unfunded requests to the Corporate Planning team How should i do it?"
+      },
+      {
+        "intent": "unfunded_request",
+        "text": "How do Corporate Planning team get unfunded requests?"
+      },
+      {
+        "intent": "unfunded_request",
+        "entities": [
+          {
+            "start": 41,
+            "end": 64,
+            "value": "Corporate Planning team",
+            "entity": "Team"
+          }
+        ],
+        "text": "How do theunfunded requests flows to the Corporate Planning team?"
+      },
+      {
+        "intent": "greet+view_offline_template",
+        "text": "hello there.i do not see offline template"
+      },
+      {
+        "intent": "greet+view_offline_template",
+        "text": "hi.which are different templates"
+      },
+      {
+        "intent": "greet+view_offline_template",
+        "entities": [
+          {
+            "start": 50,
+            "end": 62,
+            "value": "TMP template",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "hey there, I do not see drop downs in the offline TMP template"
+      },
+      {
+        "intent": "greet+view_offline_template",
+        "entities": [
+          {
+            "start": 44,
+            "end": 56,
+            "value": "TMP template",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "hi Mister.What all alternatives we have for TMP template?"
+      },
+      {
+        "intent": "greet+view_offline_template",
+        "entities": [
+          {
+            "start": 44,
+            "end": 56,
+            "value": "TMP template",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "hi pal!Why there are no choices for offline TMP template ?"
+      },
+      {
+        "intent": "greet+view_offline_template",
+        "text": "hi there i am looking for a template"
+      },
+      {
+        "intent": "greet+view_offline_template",
+        "entities": [
+          {
+            "start": 49,
+            "end": 70,
+            "value": "TMP offline templates",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "greetings.Is there any way to view the different TMP offline templates that we have?"
+      },
+      {
+        "intent": "greet+view_offline_template",
+        "text": "hello everybody.which are different templates"
+      },
+      {
+        "intent": "greet+view_offline_template",
+        "entities": [
+          {
+            "start": 48,
+            "end": 69,
+            "value": "TMP offline templates",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "hello is anybody there.Are there no options for TMP offline templates"
+      },
+      {
+        "intent": "greet+view_offline_template",
+        "text": "hello.i want to see offline template"
+      },
+      {
+        "intent": "greet+view_offline_template",
+        "entities": [
+          {
+            "start": 36,
+            "end": 56,
+            "value": "offline TMP template",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "hallo.Why there is no drop down for offline TMP template"
+      },
+      {
+        "intent": "greet+view_offline_template",
+        "entities": [
+          {
+            "start": 43,
+            "end": 55,
+            "value": "TMP template",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "heeey.Why there are no choices for offline TMP template ?"
+      },
+      {
+        "intent": "view_offline_template",
+        "text": "i do not see offline template"
+      },
+      {
+        "intent": "view_offline_template",
+        "text": "which are different templates"
+      },
+      {
+        "intent": "view_offline_template",
+        "text": "i am looking for a template"
+      },
+      {
+        "intent": "view_offline_template",
+        "text": "no drop down for template"
+      },
+      {
+        "intent": "view_offline_template",
+        "entities": [
+          {
+            "start": 39,
+            "end": 51,
+            "value": "TMP template",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "I do not see drop downs in the offline TMP template"
+      },
+      {
+        "intent": "view_offline_template",
+        "entities": [
+          {
+            "start": 34,
+            "end": 54,
+            "value": "TMP offline template",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "What are the possible options for TMP offline template"
+      },
+      {
+        "intent": "view_offline_template",
+        "entities": [
+          {
+            "start": 24,
+            "end": 45,
+            "value": "TMP offline templates",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "Which are the different TMP offline templates that we have?"
+      },
+      {
+        "intent": "view_offline_template",
+        "entities": [
+          {
+            "start": 34,
+            "end": 46,
+            "value": "TMP template",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "What all alternatives we have for TMP template?"
+      },
+      {
+        "intent": "view_offline_template",
+        "entities": [
+          {
+            "start": 39,
+            "end": 51,
+            "value": "TMP template",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "I am looking for choices available for TMP template"
+      },
+      {
+        "intent": "view_offline_template",
+        "entities": [
+          {
+            "start": 37,
+            "end": 49,
+            "value": "TMP template",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "Why there are no choices for offline TMP template ?"
+      },
+      {
+        "intent": "view_offline_template",
+        "entities": [
+          {
+            "start": 58,
+            "end": 70,
+            "value": "TMP template",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "How can i see the different options available for offline TMP template?"
+      },
+      {
+        "intent": "view_offline_template",
+        "entities": [
+          {
+            "start": 39,
+            "end": 60,
+            "value": "TMP offline templates",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "Is there any way to view the different TMP offline templates that we have?"
+      },
+      {
+        "intent": "view_offline_template",
+        "entities": [
+          {
+            "start": 25,
+            "end": 46,
+            "value": "TMP offline templates",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "Are there no options for TMP offline templates"
+      },
+      {
+        "intent": "view_offline_template",
+        "entities": [
+          {
+            "start": 30,
+            "end": 50,
+            "value": "offline TMP template",
+            "entity": "Temp_Document"
+          }
+        ],
+        "text": "Why there is no drop down for offline TMP template"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "TM1",
+        "synonyms": [
+          "AXP_IM",
+          "TM1 Investment Management solution"
+        ]
+      },
+      {
+        "value": "TMP template",
+        "synonyms": [
+          "TMP templates",
+          "TMP offline template",
+          "offline TMP template",
+          "offline TMP templates",
+          "get_access:",
+          "access_status:",
+          "update_access:",
+          "training:",
+          "validation_error:",
+          "error:",
+          "return_on_investment:",
+          "view_investment:",
+          "view_offline_template:",
+          "thankyou:",
+          "unfunded_request",
+          "adjust_screen",
+          "fx_rate",
+          "missing_records",
+          "input_field_error",
+          "emergency_access",
+          "greet+get_access",
+          "greet+access_status",
+          "greet+view_offline_template",
+          "greet",
+          "affirm",
+          "deny",
+          "inform",
+          "stop",
+          "Tool",
+          "Field",
+          "Document",
+          "Team",
+          "Inves_Document",
+          "Temp_Document",
+          "Score",
+          "text: \"Hey Pal ��\"",
+          "text: \"Hello there, how can I help you?\"",
+          "text: \"Please specify the Tool you want to know about?\"",
+          "title: \"TM1\"",
+          "title: \"AXP_IM\"",
+          "text: \"On Which field you face this issue please specify?\"",
+          "title: \"Reviewer Comments\"",
+          "title: \"Servicing Cost Opex\"",
+          "text: \"Which Document you found this issue with?\"",
+          "title: \"Investment\"",
+          "title: \"Report\"",
+          "text: \"Please specify the document you have ROI issues?\"",
+          "title: \"reporting cube\"",
+          "title: \"IDR report\"",
+          "title: \"BI report\"",
+          "title: \"report\"",
+          "text: \"Do you still want to continue?\"",
+          "text: \"Maybe i can help you please continue��?\"",
+          "text: \"I am feeling like useless�� please continue\"",
+          "text: \"Please share your valuable feedback\"",
+          "title: \"bad\"",
+          "title: \"okay\"",
+          "title: \"good\"",
+          "title: \"awesome\"",
+          "text: \"That doesn't look like a feedback��\"",
+          "title: \"TMP template\"",
+          "text: \"See you soon.Take care ��\"",
+          "text: \"sorry, I didn't understand you ��, please Ask something else\"",
+          "text: \"Sorry no such tool found\"",
+          "text: \"Sorry no such field found\"",
+          "text: \"Sorry no such document found\"",
+          "text: \"We hope it helped ��.Ask me if you have any other queries\"",
+          "text: \"Sorry i can't make out what you are saying\"",
+          "action_unfunded_request",
+          "action_adjust_screen",
+          "action_fx_rate",
+          "action_missing_records",
+          "action_input_field_error",
+          "action_emergency_access",
+          "utter_ask_continue",
+          "utter_continue",
+          "utter_greet",
+          "utter_bot_greet",
+          "form_get_access",
+          "form_access_status",
+          "form_update_access",
+          "form_training",
+          "form_validation_error",
+          "form_error",
+          "form_return_on_investment",
+          "form_view_investment",
+          "form_view_offline_template",
+          "form_feedback"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+intents:
+  - get_access:
+      use_entities: false
+  - access_status:
+      use_entities: false
+  - update_access:
+      use_entities: false
+  - training:
+      use_entities: false
+  - validation_error:
+      use_entities: false
+  - error:
+      use_entities: false
+  - return_on_investment:
+      use_entities: false
+  - view_investment:
+      use_entities: false
+  - view_offline_template:
+      use_entities: false
+  - thankyou:
+      use_entities: false
+  - unfunded_request
+  - adjust_screen
+  - fx_rate
+  - missing_records
+  - input_field_error
+  - emergency_access
+  - greet+get_access
+  - greet+access_status
+  - greet+view_offline_template
+  - greet
+  - affirm
+  - deny
+  - inform
+  - stop
+entities:
+  - Tool
+  - Field
+  - Document
+  - Team
+  - Inves_Document
+  - Temp_Document
+  - Score
+slots:
+  Tool:
+    type: unfeaturized
+    auto_fill: false
+  Field:
+    type: unfeaturized
+    auto_fill: false
+  Document:
+    type: unfeaturized
+    auto_fill: false
+  Inves_Document:
+    type: unfeaturized
+    auto_fill: false
+  Temp_Document:
+    type: unfeaturized
+    auto_fill: false
+  Team:
+    type: text
+  Score:
+    type: unfeaturized
+    auto_fill: false
+templates:
+  utter_bot_greet:
+    - text: "Hey Pal 😀"
+  utter_greet:
+    - text: "Hello there, how can I help you?"
+  utter_bye:
+    - text: "Thanks for intrecting with us"
+  utter_ask_Tool:
+    - text: "Please specify the Tool you want to know about?"
+      buttons:
+      - title: "TM1"
+        payload: 'TM1'
+      - title: "AXP_IM"
+        payload: 'AXP_IM'
+  utter_ask_Field:
+     - text: "On Which field you face this issue please specify?"
+       buttons:
+       - title: "Reviewer Comments"
+         payload: 'Reviewer Comments'
+       - title: "Servicing Cost Opex"
+         payload: 'Servicing Cost Opex'
+  utter_ask_Document:
+      - text: "Which Document you found this issue with?"
+        buttons:
+        - title: "Investment"
+          payload: 'Investment'
+        - title: "Report"
+          payload: 'Report'
+  utter_ask_Inves_Document:
+       - text: "Please specify the document you have ROI issues?"
+         buttons:
+         - title: "reporting cube"
+           payload: 'reporting cube'
+         - title: "IDR report"
+           payload: 'IDR report'
+         - title: "BI report"
+           payload: 'BI report'
+         - title: "report"
+           payload: 'report'    
+  utter_ask_continue:
+         - text: "Do you still want to continue?"
+         - text: "Maybe i can help you please continue😫?"
+         - text: "I am feeling like useless😫 please continue"
+  utter_ask_Score:
+        - text: "Please share your valuable feedback"
+          buttons:
+          - title: "bad"
+            payload: "bad"
+          - title: "okay"
+            payload: "okay"    
+          - title: "good"
+            payload: "good"
+          - title: "awesome"
+            payload: "awesome"
+  utter_wrong_feedback:
+         - text: "That doesn't look like a feedback😫"
+  utter_ask_Temp_Document:
+       - text: "Please specify the document you have ROI issues?"
+         buttons:
+         - title: "TMP template"
+           payload: 'TMP template'
+  utter_submit:
+    - text: "See you soon.Take care 😀" 
+  utter_default:
+    - text: "sorry, I didn't understand you 😫, please Ask something else hi"
+  utter_wrong_tool:
+    - text: "Sorry no such tool found"
+  utter_wrong_field:
+    - text: "Sorry no such field found"
+  utter_wrong_document:
+    - text: "Sorry no such document found"
+  utter_continue:
+    - text: "We hope it helped 😁.Ask me if you have any other queries"
+  action_default_fallback:
+    - text: "Sorry i can't make out what you are saying"
+actions:
+  - action_unfunded_request
+  - action_adjust_screen
+  - action_fx_rate
+  - action_missing_records
+  - action_input_field_error
+  - action_emergency_access
+  - utter_ask_continue
+  - utter_continue
+  - utter_greet
+  - utter_bot_greet
+  - utter_bye
+forms:
+  - form_get_access
+  - form_access_status
+  - form_update_access
+  - form_training
+  - form_validation_error
+  - form_error
+  - form_return_on_investment
+  - form_view_investment
+  - form_view_offline_template
+  - form_feedback

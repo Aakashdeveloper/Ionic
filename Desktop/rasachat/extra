@@ -1,0 +1,59 @@
+python -m rasa_core.train interactive -s data/stories.md -d domain.yml -o models/dialogue --debug --endpoints endpoints.yml
+visualize:
+    python -m rasa_core.visualize -s data/stories.md -d domain.yml -o story_graph.html
+train-nlu:
+    python -m rasa_nlu.train -c nlu_tensorflow.yml --fixed_model_name current --data data/nlu_data.md -o models --project nlu --verbose
+
+
+
+
+
+train-core:
+    python3 -m rasa_core.train -s data/stories.md -d domain.yml -o models/dialogue --debug
+run-core:
+    python3 -m rasa_core.run --core models/dialogue --nlu models/nlu/current --debug --endpoints endpoints.yml
+run-actions:
+    python3 -m rasa_core_sdk.endpoint --actions actions
+run:
+    make run-actions&
+    make run-core
+train-interactive:
+    python3 -m rasa_core.train interactive -s data/stories.md -d domain.yml -o models/dialogue --debug --endpoints endpoints.yml
+visualize:
+    python3 -m rasa_core.visualize -s data/stories.md -d domain.yml -o story_graph.html
+train-nlu:
+    python3 -m rasa_nlu.train -c nlu_tensorflow.yml --fixed_model_name current --data data/nlu_data.md -o models --project nlu --verbose
+
+
+python3 -m rasa_core.run --core models/dialogue --nlu models/nlu/current --debug --endpoints endpoints.yml
+
+python3 -m rasa_core.run -d models/dialogue --endpoint endpoints.yml
+
+python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --endpoints endpoints.yml
+
+
+Step1
+    -- python3 -m rasa_nlu.train -c nlu_tensorflow.yml --fixed_model_name current --data data/nlu_data.md -o models --project nlu --verbose
+Step2
+    -- python3 -m rasa_core.train -s data/stories.md -d domain.yml -o models/dialogue --debug
+Step3
+    -- python -m rasa_core_sdk.endpoint --actions actions
+Step4
+    -- python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --endpoints endpoints.yml
+
+
+
+ cd my-project/
+$ virtualenv venv
+If you want your virtualenv to also inherit globally installed packages run:
+
+$ virtualenv venv --system-site-packages
+These commands create a venv/ directory in your project where all dependencies are installed. You need to activate it first though (in every terminal instance where you are working on your project):
+
+$ source venv/bin/activate
+
+
+gunicorn -w 1 --timeout 120 --limit-request-line 0 --limit-request-field_size 0 --bind 0.0.0.0:8443 text:app
+
+
+
