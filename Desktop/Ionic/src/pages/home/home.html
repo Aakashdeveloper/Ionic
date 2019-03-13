@@ -1,0 +1,85 @@
+<!-- <ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Ionic Menu Starter</h3>
+
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
+  </p>
+
+  <button ion-button secondary menuToggle>Toggle Menu</button>
+</ion-content> -->
+<ion-header>
+  <ion-navbar>
+      <button ion-button menuToggle class="menuImg">
+    <!-- <ion-icon name="menu"></ion-icon> -->
+    <img  ion-icon src="assets/menu/menu_icon.png" />
+      </button>
+      <ion-title>Dashboard</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="containerBackground">
+  <ion-grid>
+      <p text-left class="welcomeText"> <label> Welcome, <span class="dashboardusernameColor">David</span></label></p>
+      <ion-row>
+          <ion-col col-md-6 tappable (click)="navigatListing('NewsroomPage');">
+              <ion-card [ngClass]="activeClassNew === true ? 'dashboardCardSelected' : 'dashboardCard'">
+                  <img showWhen="ios" [src]="activeClassNew === true ? 'assets/dashboard/newspaper.png' : 'assets/dashboard/newspaper.png'" />
+
+                  <img showWhen="android" [src]="activeClassNew === true ? 'assets/dashboard/newspaper.png' : 'assets/dashboard/newspaper.png'" />
+                  <p text-center> <label> News</label></p>
+              </ion-card>
+          </ion-col>
+          <ion-col col-md-6 tappable (click)="navigatListing('LatestNewsPage');">
+              <ion-card [ngClass]="activeClassShe === true ? 'dashboardCardSelected' : 'dashboardCard'">
+                  <img [src]="activeClassShe === true ? 'assets/dashboard/newsroom_white.png' : 'assets/dashboard/newsroom_white.png'" />
+                  <p text-center> <label> Latest Updates</label></p>
+              </ion-card>
+          </ion-col>
+
+      </ion-row>
+      <ion-row>
+          <ion-col col-md-6 tappable (click)="navigatListing('AboutusPage');">
+              <ion-card [ngClass]="activeClassShe === true ? 'dashboardCardSelected' : 'dashboardCard'">
+                  <img [src]="activeClassShe === true ? 'assets/dashboard/care-about-planet.png' : 'assets/dashboard/care-about-planet.png'" />
+                  <p text-center> <label> About Us</label></p>
+              </ion-card>
+          </ion-col>
+          <ion-col col-md-6 tappable (click)="navigatListing('LoginPage');" >
+              <ion-card [ngClass]="activeClassBus === true ? 'dashboardCardSelected' : 'dashboardCard'">
+                  <img [src]="activeClassBus === true ? 'assets/dashboard/logout.png' : 'assets/dashboard/logout.png'" />
+                  <p text-center> <label> Exit </label></p>
+              </ion-card>
+          </ion-col>
+          <!-- <ion-col col-md-6 (click)="navigatListing('HaveyoursayPage');">
+              <ion-card [ngClass]="activeClassHav === true ? 'dashboardCardSelected' : 'dashboardCard'">
+                  <img [src]="activeClassHav === true ? 'assets/dashboard/have_your_say_white.svg' : 'assets/dashboard/have_your_say_red.svg'" />
+                  <p text-center> <label> Have Your Say</label></p>
+              </ion-card>
+          </ion-col>
+          <ion-col col-md-6 *ngIf="!businessNewsStatus"></ion-col>
+
+      </ion-row>
+      <ion-row>
+          <!-- <ion-col col-md-6 (click)="navigatListing('HaveyoursayPage');">
+              <ion-card [ngClass]="activeClassHav === true ? 'dashboardCardSelected' : 'dashboardCard'">
+                  <img [src]="activeClassHav === true ? 'assets/dashboard/have_your_say_white.svg' : 'assets/dashboard/have_your_say_red.svg'" />
+                  <p text-center> <label> Have Your Say</label></p>
+              </ion-card>
+          </ion-col>
+          <ion-col col-md-6></ion-col> -->
+
+
+      </ion-row>
+  </ion-grid>
+
+
+</ion-content>

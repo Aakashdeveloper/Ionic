@@ -1,0 +1,153 @@
+page-login {
+  .logoBackground img {
+      max-width: 50%;
+      padding-top: 10%;
+      display: block;
+      margin: auto;
+      //border-radius: 20%;
+  }
+  .logoBackground {
+      height: 365px; //365px;
+      background: map-get($colors, backgroundred);
+  }
+  .login {
+      // box-shadow: 0 18px 10px -10px #c8c8c8;
+      box-shadow: 0px 5px 5px 0px #c9c9c9;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+  .formbackground {
+      background: map-get($colors, whitebackground);
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+  }
+  .item {
+      padding: 0px 16px;
+      background: transparent;
+      border-top: none !important;
+  }
+  //this can be move to app.scss
+  // .input-has-focus .label[floating] {
+  //     color: #000 !important;
+  //     font-weight: 400 !important;
+  // }
+  // .item.item-input.item-input-has-focus .item-inner,
+  // {
+  //     border-bottom-color: #ccc !important;
+  //     box-shadow: inset 0 0 0 0 #ccc !important;
+  // }
+  .input-cover {
+      border-bottom: 1px solid #ccc;
+  }
+  .signInText {
+      // padding-left: 160px;
+      text-align: center !important;
+      color: map-get($colors, textwhite);
+      font-size: 1.6rem; //18px;
+  }
+  .loginButton {
+      padding: 10% 10% 0 10%;
+  }
+  .loginButton button {
+      border-radius: 50px;
+      background: map-get($colors, danger);
+      height: 50px;
+      color: map-get($colors, light);
+      font-size: 1.6rem; //18px;
+  }
+  .remove-check-padding.item.item-block .item-inner,
+  .remove-check-padding.list .item-block .item-inner {
+      border: 0px;
+  }
+  .remove-check-padding1.item.item-block .item-inner {
+      border-bottom: none !important;
+  }
+  .remove-check-padding1 {
+      // padding: 0px !important;
+  }
+  .item.item-block .item-inner {
+      padding-right: 0px;
+      // border-bottom: 0px;
+  }
+  ion-item {
+      .input-wrapper {
+          flex: none;
+          margin-left: auto;
+      }
+      ion-checkbox.checkbox {
+          margin-right: 3px !important //auto !important;
+      }
+  }
+  .list>.item-block:first-child {
+      // border-top-left-radius: 10px;
+      // border-top-right-radius: 10px;
+      //  background-color: #FFF;
+  }
+  .list>.item-block:last-child {
+      // border-bottom: none;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      padding-top: 3%;
+  }
+  .item-md.item-input.ng-invalid.ng-touched:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+      // border-bottom-color: transparent!important;
+      border-bottom: 1px solid #ccc !important;
+  }
+  .input-cover {
+      border: 0px;
+  }
+  .checkbox-ios .checkbox-icon {
+      border-radius: 0px;
+  }
+  .item.item-md .checkbox-md {
+      margin: 12px 36px 12px 4px;
+  }
+  .alignCheckBox {
+      display: inline-flex;
+  }
+  .validator-error {
+      padding: 16px;
+      background: #FFF;
+      font-size: 14px;
+      color: map-get($colors, danger);
+  }
+  .wrap-word {
+      font-size: 1.2rem; //13px;
+      color: #000;
+  }
+  .wrap-word1 {
+      font-size: 1.2rem;
+      color: #000;
+  }
+  // .Copyrights {
+  //     font-size: 2.5vw;
+  //     color: map-get($colors, borderblack);
+  //     padding-bottom: 4vw;
+  // }
+  ion-footer {
+      max-height: 5vh!important;
+  }
+  .toolbar {
+      padding: 0px !important;
+  }
+  ion-footer .toolbar-background {
+      border-color: transparent;
+      background: transparent;
+      padding: 0px;
+  }
+  .toolbar-title {
+      padding: 0px;
+      font-size: 2.5vw;
+      color: map-get($colors, borderblack);
+      margin-bottom: 8vh;
+  }
+  // All the media queries
+  @media (min-width: 768px) and (max-width: 1024px) {
+      .logoBackground {
+          height: 65vh; //365px;
+          background: map-get($colors, backgroundred);
+      }
+  }
+}

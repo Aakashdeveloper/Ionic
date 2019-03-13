@@ -1,0 +1,69 @@
+<ion-content>
+
+  <ion-row class="logo-row">
+
+    <ion-col col-12 col-sm col-xs col-md class="logoBackground">
+      <img src="assets/menu/logo.png" />
+      <p text-center> <label class="signInText">Sign In</label></p>
+
+      <form [formGroup]="loginFormData" autocomplete="off" (ngSubmit)="saveAndSubmitData(loginFormData.value)">
+        <!-- (ngSubmit)="logForm()" -->
+        <div class="formbackground">
+          <ion-list class="login">
+
+            <ion-item>
+              <ion-label floating>Username</ion-label>
+              <ion-input type="text" formControlName="firstName"></ion-input>
+            </ion-item>
+            <div
+              *ngIf="!loginFormData.controls.firstName.valid &&loginFormData.controls.firstName.hasError('required') && loginFormData.controls.firstName.touched"
+              class="validator-error">
+              {{requiredUsername}}
+            </div>
+            <div *ngIf="loginFormData.controls.firstName.dirty && !loginFormData.controls.firstName.valid">
+              <div *ngIf="loginFormData.controls.firstName.errors.maxlength" class="validator-error">
+                {{requiredUserNameMaxLength}}
+              </div>
+            </div>
+            <ion-item>
+              <ion-label floating>Password</ion-label>
+              <ion-input type="password" formControlName="passWord"></ion-input>
+            </ion-item>
+            <div
+              *ngIf="!loginFormData.controls.passWord.valid &&loginFormData.controls.passWord.hasError('required') && loginFormData.controls.passWord.touched"
+              class="validator-error">
+
+              {{requiredPassword}}
+            </div>
+            <ion-row>
+              <ion-col col-6>
+                <ion-item class="remove-check-padding" no-padding>
+                </ion-item>
+              </ion-col>
+              <ion-col col-6>
+              </ion-col>
+
+            </ion-row>
+          </ion-list>
+        </div>
+        <div text-center align-items-center class="loginButton ">
+          <button [disabled]="!loginFormData.valid" class="button button-block button-positive" text-center
+            type="button " block>Login</button>
+        </div>
+        <div *ngIf="invalidCredentialsFlag==true " class="validator-error">
+          {{InvalidCredentials}}
+        </div>
+
+      </form>
+
+    </ion-col>
+
+  </ion-row>
+</ion-content>
+<ion-footer no-border>
+  <ion-toolbar class="Copyrights">
+    <ion-title text-center>2019 © News App
+
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

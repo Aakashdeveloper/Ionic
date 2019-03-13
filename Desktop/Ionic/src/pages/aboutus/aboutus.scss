@@ -1,0 +1,17 @@
+page-aboutus {
+  .containerBackground .content {
+    background: map-get($colors, backgroundgery);
+    // margin-top: 3% !important;
+}
+.versionCode {
+    font-size: 1.8rem; //3vw;
+    font-weight: 800;
+    padding: 2% 0 0 4%;
+}
+.aboutContent {
+    border-radius: 10px;
+}
+.card p {
+    color: #666;
+}
+}
