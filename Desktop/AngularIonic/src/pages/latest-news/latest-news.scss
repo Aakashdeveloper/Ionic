@@ -1,0 +1,57 @@
+
+page-latest-news {
+  .itempadding {
+      padding: 0px 5px !important;
+      border-bottom: 1px solid map-get($colors, lightgrey);
+  }
+  .containerBackground {
+      background: map-get($colors, backgroundgery);
+      margin-top: 3% !important;
+  }
+  ion-list {
+      padding: 5px !important;
+  }
+  .itempadding:first-child {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+  }
+  .itempadding:last-child {
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+  .item ion-avatar ion-img,
+  .item ion-avatar img {
+      height: 5vw;
+      width: 5vw;
+      margin: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin: 2.5vw;
+      border-radius: unset;
+  }
+  .lineWrap {
+      width: 70vw;
+      line-height: 1.3em !important;
+      height: 2.5em;
+      overflow: hidden;
+  }
+  .lineWrapTitle {
+      width: 70vw;
+      line-height: 1.3em !important;
+      // height: 2.5em;
+      overflow: hidden;
+      text-transform: capitalize !important;
+  }
+  .item ion-avatar {
+      min-width: 10vw;
+      min-height: 10vw;
+      background: map-get($colors, backgroundred);
+      border-radius: 50%;
+  }
+  img.loaderImg {
+      width: 60px !important;
+      height: 60px !important;
+      margin: 3%;
+  }
+}
